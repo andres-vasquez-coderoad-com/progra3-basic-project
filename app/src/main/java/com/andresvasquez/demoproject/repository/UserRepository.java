@@ -1,7 +1,5 @@
 package com.andresvasquez.demoproject.repository;
 
-import android.text.SpannableString;
-
 import com.andresvasquez.demoproject.model.User;
 
 import java.util.ArrayList;

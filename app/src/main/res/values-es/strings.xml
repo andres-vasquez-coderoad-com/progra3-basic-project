@@ -27,4 +27,9 @@
     <!-- Errors -->
     <string name="error_login">Email or password incorrect</string>
     <string name="error_fields">Please enter all fields</string>
+    <string name="menu_kitchen">Cocina</string>
+    <string name="menu_book">Aprendizaje</string>
+    <string name="menu_movies">Películas</string>
+    <string name="menu_fitness">Deporte</string>
+    <string name="menu_health">Vida sana</string>
 </resources>
