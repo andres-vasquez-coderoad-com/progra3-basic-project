@@ -54,7 +54,7 @@ public class SplashActivity extends AppCompatActivity {
                     Thread.sleep(500);
                     updateProgress(80);
 
-                    Thread.sleep(500);
+                    Thread.sleep(1000);
                     updateProgress(99);
                     openNextScreen();
                 } catch (InterruptedException ex) {
