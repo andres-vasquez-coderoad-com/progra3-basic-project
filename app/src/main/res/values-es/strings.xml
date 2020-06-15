@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Projecto demo</string>
+
+    <!-- Splash -->
+    <string name="loading">Cargando</string>
+
+    <!-- Login -->
+    <string name="email">Correo electrónico</string>
+    <string name="password">Contraseña</string>
+
+    <string name="button_login">Ingresar</string>
+    <string name="button_register">Registrar</string>
+
+    <!-- Register -->
+    <string name="register_email">Ingrese correo electrónico</string>
+    <string name="register_password">Ingrese su contraseña</string>
+    <string name="register_password_repeat">Repita su contraseña</string>
+    <string name="register_name">Ingrese su nombre</string>
+    <string name="register_country">Seleccione su país</string>
+
+    <string name="button_create">Crease cuenta</string>
+
+    <!-- Main menu -->
+    <string name="welcome">Bienvenid@ %s!</string>
+
+    <!-- Errors -->
+    <string name="error_login">Email or password incorrect</string>
+    <string name="error_fields">Please enter all fields</string>
+</resources>
