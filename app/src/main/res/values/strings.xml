@@ -5,6 +5,7 @@
     <string name="loading">Loading</string>
 
     <!-- Login -->
+    <string name="login_title">Login</string>
     <string name="email">Email</string>
     <string name="password">Password</string>
 
@@ -12,6 +13,7 @@
     <string name="button_register">Register</string>
 
     <!-- Register -->
+    <string name="register_title">Register</string>
     <string name="register_email">Enter email</string>
     <string name="register_password">Enter password</string>
     <string name="register_password_repeat">Repeat password</string>
@@ -21,10 +23,14 @@
     <string name="button_create">Create account</string>
 
     <!-- Main menu -->
+    <string name="main_title">Main menu</string>
     <string name="welcome">Welcome %s!</string>
 
     <!-- Errors -->
     <string name="error_login">Email or password incorrect</string>
+    <string name="error_password">Review the password please</string>
+    <string name="error_email">Enter a valid email</string>
+
     <string name="error_fields">Please enter all fields</string>
     <string name="menu_kitchen">Cooking</string>
     <string name="menu_book">Learn</string>
