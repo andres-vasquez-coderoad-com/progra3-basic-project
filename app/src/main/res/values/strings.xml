@@ -31,4 +31,5 @@
     <string name="menu_movies">Movies</string>
     <string name="menu_fitness">Fitness</string>
     <string name="menu_health">Health</string>
+    <string name="menu_title">What do you want to do?</string>
 </resources>
