@@ -4,7 +4,11 @@ import android.content.Context;
 import android.os.Bundle;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.GridLayoutManager;
+import androidx.recyclerview.widget.LinearLayoutManager;
+import androidx.recyclerview.widget.RecyclerView;
 
+import com.andresvasquez.demoproject.adapter.MenuItemRecyclerViewAdapter;
 import com.andresvasquez.demoproject.model.MenuItem;
 
 import java.util.ArrayList;
@@ -14,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
 
     private static final String LOG = MainActivity.class.getSimpleName();
     private Context context;
+    private RecyclerView taskRecyclerView;
 
     private List<MenuItem> items = new ArrayList<>();
 
@@ -29,7 +34,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     private void initViews() {
-
+        taskRecyclerView = findViewById(R.id.taskRecyclerView);
+        MenuItemRecyclerViewAdapter adapter = new MenuItemRecyclerViewAdapter(context, items);
+        taskRecyclerView.setAdapter(adapter);
+        taskRecyclerView.setLayoutManager(new GridLayoutManager(context, 2));
+        //taskRecyclerView.setLayoutManager(new LinearLayoutManager(context));
     }
 
     private void addEvents() {

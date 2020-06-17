@@ -6,10 +6,13 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class UserRepository {
-    private static UserRepository instance = new UserRepository();
-    private static List<User> users = new ArrayList<>();
+    private static UserRepository instance;
+    private List<User> users = new ArrayList<>();
 
     public static UserRepository getInstance() {
+        if (instance == null) {
+            instance = new UserRepository();
+        }
         return instance;
     }
 
@@ -24,6 +27,10 @@ public class UserRepository {
             }
         }
         return null;
+    }
+
+    public void register(User user) {
+        users.add(user);
     }
 
     private void fillDefaultValues() {
