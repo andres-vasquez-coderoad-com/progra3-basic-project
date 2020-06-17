@@ -6,6 +6,7 @@
     <string name="loading">Cargando</string>
 
     <!-- Login -->
+    <string name="login_title">Ingreso a la app</string>
     <string name="email">Correo electrónico</string>
     <string name="password">Contraseña</string>
 
@@ -13,6 +14,7 @@
     <string name="button_register">Registrar</string>
 
     <!-- Register -->
+    <string name="register_title">Nuevo usuario</string>
     <string name="register_email">Ingrese correo electrónico</string>
     <string name="register_password">Ingrese su contraseña</string>
     <string name="register_password_repeat">Repita su contraseña</string>
@@ -22,11 +24,15 @@
     <string name="button_create">Crease cuenta</string>
 
     <!-- Main menu -->
+    <string name="main_title">Menú Principal</string>
     <string name="welcome">Bienvenid@ %s!</string>
 
     <!-- Errors -->
-    <string name="error_login">Email or password incorrect</string>
-    <string name="error_fields">Please enter all fields</string>
+    <string name="error_login">Correo electrónico o contraseña incorrecta</string>
+    <string name="error_password">Revise las contraseñas</string>
+    <string name="error_email">Ingrese un correo electrónico válido</string>
+    <string name="error_fields">Ingrese todos los campos</string>
+
     <string name="menu_kitchen">Cocina</string>
     <string name="menu_book">Aprendizaje</string>
     <string name="menu_movies">Películas</string>
